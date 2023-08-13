@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-0m)m(dxvwn_&+!rqjjg@ku&5gt$tij*1)57e6g6f=^d2o1-)b^
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'weather-app-hwuq.onrender.com'
+    'weather-app-hwuq.onrender.com',
+    '127.0.0.1'
 ]
 
 
@@ -119,7 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [BASE_DIR / "static"]
+STATICFILES_DIRS = [BASE_DIR / "WEATHERAPP/static"]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
