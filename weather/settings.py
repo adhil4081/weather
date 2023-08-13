@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-0m)m(dxvwn_&+!rqjjg@ku&5gt$tij*1)57e6g6f=^d2o1-)b^
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://weather-app-hwuq.onrender.com'
+    'weather-app-hwuq.onrender.com'
 ]
 
 
